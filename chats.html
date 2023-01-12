@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
 
   <body>
@@ -25,57 +25,27 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header_title">Friends</h1>
+      <h1 class="screen-header_title">Chats</h1>
       <div class="screen-header_icons">
         <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-regular fa-comment-dots"></i></span>
         <span><i class="fa-solid fa-music"></i></span>
         <span><i class="fa-solid fa-gear"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friedns-screen">
+    <main class="chats-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar-xl"
-            src="img/승희.jpg"
-          />
+          <img class="user-component__avatar" src="img/cats1.png" />
           <div class="user-component__text">
-            <h4 class="user-component__title">승희</h4>
-            <!-- <h6 class="user-component__subtitle">for test</h6> -->
+            <h4 class="user-component__title">고영희</h4>
+            <h6 class="user-component__subtitle">얼른 집에 와야해!</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar-sm"
-              src="img/channel.jpg"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span> <i class="fa-solid fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+        <div class="user-component__column">
+          <h6 class="user-component__time">04:27</h6>
+          <div class="notification chats-notification">1</div>
         </div>
       </div>
     </main>
@@ -84,13 +54,13 @@
       <ul class="nav__ul">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html"
-            ><span class="notification nav__notification">1</span
-            ><i class="fa-regular fa-comment fa-2x"></i
+            ><span class="notification">1</span
+            ><i class="fa-solid fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">

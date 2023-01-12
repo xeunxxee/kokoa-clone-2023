@@ -1,0 +1,20 @@
+.notification {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: var(--green);
+    color: white;
+    width:24px;
+    height: 24px; }
+
+.notification-mini {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: var(--green);
+    color: white;
+    width:6px;
+    height: 6px;
+}

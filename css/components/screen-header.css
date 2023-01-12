@@ -1,0 +1,14 @@
+.screen-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px var(--space);
+}
+
+.screen-header_title {
+    font-weight: 600;
+    font-size: 30px;
+}
+.screen-header_icons>span {
+    margin-left: 25px;
+}
