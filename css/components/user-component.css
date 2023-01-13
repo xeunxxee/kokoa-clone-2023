@@ -14,21 +14,21 @@
     align-items: flex-end;
 }
 .user-component__avatar {
-    height:70px;
-    width:70px;
-    border-radius: 30px;
-}
-
-.user-component__avatar-sm{
     height:60px;
     width:60px;
     border-radius: 25px;
 }
 
+.user-component__avatar-sm{
+    height:50px;
+    width:50px;
+    border-radius: 22px;
+}
+
 .user-component__avatar-xl{
-    height:80px;
-    width:80px;
-    border-radius: 35px;
+    height:70px;
+    width:70px;
+    border-radius: 30px;
 }
 
 .user-component__text {

@@ -12,9 +12,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 2.5px;
     background-color: var(--green);
     color: white;
-    width:6px;
-    height: 6px;
+    width:5px;
+    height: 5px;
 }
