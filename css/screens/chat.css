@@ -1,0 +1,23 @@
+.chat-body {
+    background-color: #afd4af;
+}
+
+.chat-header-column div:first-child,
+.chat-header-column div:nth-child(2) {
+    width: 33.33%;
+}
+
+.chat-header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px var(--space);
+}
+
+.chat-header div:last-child {
+    padding-left:90px;
+}
+
+.chat-header-column span :first-child {
+    margin-right: 20px;
+}
