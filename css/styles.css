@@ -9,6 +9,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/notification.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -22,4 +23,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
+    height: 100vh;
 }

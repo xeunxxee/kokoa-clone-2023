@@ -13,6 +13,7 @@
 
 .friedns-screen {
     padding: 0px var(--space);
+    overflow-x: scroll;
     
 }
 
@@ -28,3 +29,27 @@
     justify-content: space-between;
     margin: 15px 0px 25px 0px;
 }
+
+/* splash-screen */
+
+@keyframes hideSplashScreen {
+    from {opacity: 1;}
+    to {opacity: 0; visibility: hidden;}
+}
+
+
+#splash-screen {
+    background-color: var(--green);
+    position:absolute;
+    width:100vw;
+    height: 100vh;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    animation: hideSplashScreen 0.5s ease-in-out forwards;
+    animation-delay:0.5s;
+}
+
+.friends-left {height: 80px;}

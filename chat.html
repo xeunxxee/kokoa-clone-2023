@@ -26,73 +26,69 @@
 
     <header class="chat-header">
       <div class="chat-header-column">
-        <i class="fa-solid fa-chevron-left fa-lg"></i>
-      </div>
+        <a href="chats.html"><i class="fa-solid fa-chevron-left fa-lg"></i>
+      </div></a>
       <div class="chat-header-column">
         <h1 class="screen-header_title">고영희</h1>
       </div>
       <div class="chat-header-column">
-          <span><i class="fa-solid fa-magnifying-glass fa-lg"></i
-          ></span><span><i class="fa-solid fa-bars fa-lg"></i>
-          </span></div>
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="settings-screen">
-      <div class="settings-list">
-        <div class="settings-listitem listitem-border">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Notices
+    <main class="chat-screen">
+      <div class="chat-date-box">
+        <a class="chat-date">Sunday, January, 2023</a>
+      </div>
+
+      <div class="chat-row">
+        <img class="chat-row-img" src="file:///C:/Users/User/Desktop/kokoa%20clone/kokoa-clone-2023/img/cats1.png"/>
+        <div class="chat-row-text">
+          <p class="chat-row-name">고영희</p>
+          <div class="chat-row-info">
+            <p class="chat-row-messege">집사야</p>
+            <p class="chat-row-time">19:58</p>
           </div>
-        </div>
-        <div class="settings-listitem listitem-border">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Kakao Lab
-          </div>
-        </div>
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Version
-          </div>
-          <div class="settings-listitem__column">Latest Version</div>
         </div>
       </div>
-      <div class="settings-line"></div>
-      <div class="settings-list">
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Privacy
+      <div class="chat-row row--me">
+        <div class="chat-row-text">
+          <div class="chat-row-info">
+            <p class="chat-row-time">20:00</p>
+            <p class="chat-row-messege messege--by-me">왜?</p>
           </div>
-        </div>
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Notification
-          </div>
-        </div>
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Friends
-          </div>
-        </div>
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Chats
-          </div>
-        </div>
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Display
-          </div>
-        </div>
-        <div class="settings-listitem">
-          <div class="settings-listitem__column">
-            <i class="fa-solid fa-bullhorn"></i> Themes
-          </div>
-          <div class="settings-listitem__column">Default theme</div>
         </div>
       </div>
+      <div class="chat-row">
+        <img class="chat-row-img" src="file:///C:/Users/User/Desktop/kokoa%20clone/kokoa-clone-2023/img/cats1.png"/>
+        <div class="chat-row-text">
+          <p class="chat-row-name">고영희</p>
+          <div class="chat-row-info">
+            <p class="chat-row-messege">사료 떨어졌어... 꼭 사와야해</p>
+            <p class="chat-row-time">20:03</p>
+          </div>
+        </div>
+      </div>
+      
     </main>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input class="reply__input" type="text" placeholder="Write a messege..."/>
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button class="reply__btn">
+          <i class="fa-solid fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is TOO big ㅠㅠ</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/e14cec3ae0.js"
       crossorigin="anonymous"

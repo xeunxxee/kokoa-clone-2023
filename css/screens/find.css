@@ -1,5 +1,6 @@
 .find-screen {
     padding: 0px var(--space);
+    overflow-x: scroll;
 }
 
 /* find-list */
@@ -128,3 +129,19 @@ padding: 0px 5px;
     bottom:20px; right:-7px;
 }
 
+
+
+/* heart animation */
+@keyframes heartbeat {
+    0% {transform: none;}
+    50% {transform: scale(2); color:red;}
+    100% {transform: none;}
+}
+
+.find-screen__openchat-listitem-heart:hover i {
+    animation: heartbeat 0.5s linear infinite;
+}
+
+
+/* blank space for scroll */
+.find-left {height: 80px;}
