@@ -207,7 +207,7 @@
 
 .reply__input:focus {
     width:98vw;
-    transform: translateX(-10%) translateY(-80px);
+    transform: translateX(-11%) translateY(-80px);
 }
 
 .reply:focus-within {
